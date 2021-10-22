@@ -1,0 +1,10 @@
+C:\Users\ArthurEnoa\AppData\Local\Programs\Git
+
+To add a ssh key steps:
+
+1 ssh-keygen -t rsa -b 4096 -C "email address" => to generate the public/private key pair
+enter the passphrase and confirm
+
+2 eval $(ssh-agent -s) to start the ssh agent
+3 ssh-add ~/.ssh/id_rsa add the ssh key
+4 copy the ssh public key: "clip < ~/.ssh/id_rsa.pub" and paste it in your git account
