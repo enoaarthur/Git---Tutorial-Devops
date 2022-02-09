@@ -1,2 +1,2 @@
 print("welcome to amfori!")
-print("bambini disturbano!");
+print("bambini!");
