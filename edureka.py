@@ -1,2 +1,2 @@
 print("Welcome to amfori!")
-print("")
+print("Lola")
